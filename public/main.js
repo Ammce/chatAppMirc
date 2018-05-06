@@ -1,5 +1,5 @@
 $( document ).ready(function() {
-    const socket = io.connect('https://www.chatapp2k18.herokuapp.com/');
+    const socket = io.connect('/');
 
     let user = $('#name');
     let message = document.getElementById('message');
